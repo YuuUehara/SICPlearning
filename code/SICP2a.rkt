@@ -34,6 +34,7 @@
             (iter new (f new))))
     (iter start (f start)))
 ;;SICP有个特色就是会想办法用尾递归……
+
 (define (average x y)
     (/ (+ x y) 2))
 
