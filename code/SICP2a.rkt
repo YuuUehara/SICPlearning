@@ -42,5 +42,6 @@
 
 (define (sqrt x)
     (fixed-point (average-damp (lambda(y) (/ x y))) 1))
+;;这样应该没啥问题了吧……
 
 (sqrt 2)
